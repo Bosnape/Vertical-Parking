@@ -70,10 +70,10 @@ public class Main {
             System.out.println("La Torre " + eleccion + " queda por: " + torre1.get_lugar());
             torre1.actualizar(1);
         } else if (eleccion == 2){
-            System.out.println("La Torre " + eleccion + " queda por " + torre2.get_lugar());
+            System.out.println("La Torre " + eleccion + " queda por: " + torre2.get_lugar());
             torre2.actualizar(1);
         } else if (eleccion == 3){
-            System.out.println("La Torre " + eleccion + " queda por " + torre3.get_lugar());
+            System.out.println("La Torre " + eleccion + " queda por: " + torre3.get_lugar());
             torre3.actualizar(1);
         } else {
             System.out.println("Elija una opcion valida");
