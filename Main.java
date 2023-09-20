@@ -47,7 +47,7 @@ public class Main {
             System.out.println("Listo " + nombre + ", hay parqueaderos disponibles");
             System.out.println("Enseguida te indicaremos las torres");
         } else {
-            System.out.println(nombre + " por el momento no hay parqueaderos");
+            System.out.println(nombre + ", por el momento no hay parqueaderos");
             System.exit(0);
         }
 
@@ -62,7 +62,7 @@ public class Main {
         if (torre3.libre()) {
             opciones += torre3.get_nombre() + " | ";
         }
-        System.out.println("\nlas siguentes torres estan disponibles: \n" + opciones);
+        System.out.println("\nLas siguentes torres estan disponibles: \n" + opciones);
         System.out.print("Elija una de ellas (1|2|3): ");
         int eleccion = in.nextInt();
 
