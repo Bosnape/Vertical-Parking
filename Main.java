@@ -80,7 +80,7 @@ public class Main {
             System.exit(0);
         }
 
-        // Generar el pago electronico
+        // Generar y cancelar el pago electronico
         System.out.println("\nTienes pendiente cancelar el parqueadero.");
         int TARIFA = 6000;
         cancelar_parqueadero(TARIFA);
